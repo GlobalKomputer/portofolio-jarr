@@ -1,0 +1,101 @@
+/* reset tampilan browser*/
+body, h1, h2, h3, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+header{
+    background-color: rgba(12, 12, 12, 0.932);
+    color: rgb(240, 231, 231);
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1{
+    font-size: 3em;
+    margin-bottom: 10;
+
+}
+
+header p{
+    font-size: 1.2em;
+
+}
+
+.profil-img{
+    width: 150px;
+    height: 150px;   
+    border-radius: 50%;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    padding: 15px 0;
+
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #080808;
+}
+
+.project {
+    margin-bottom: 90px;
+    
+}
+
+footer{
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.project-img{
+    width: 700px;
+    height: 70%;
+    border: 2px solid #221;
+}
+
+
